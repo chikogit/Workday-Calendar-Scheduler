@@ -1,0 +1,84 @@
+/* Custom CSS with Varied Colors for a Masculine and Retro Look */
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    line-height: 1.5;
+    background-color: #2e2e2e;
+    color: #fff;
+}
+
+textarea {
+    background: #fcf9f9;
+    border: none;
+    resize: none;
+    color: #020000;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.jumbotron {
+    text-align: center;
+    background-color: #d11f29;
+    color: #fff;
+    border-radius: 0;
+    border-bottom: 10px solid #000;
+}
+
+.description {
+    white-space: pre-wrap;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.time-block {
+    text-align: center;
+    border-radius: 15px;
+    background-color: #1c1c1c;
+    color: #fff;
+}
+
+.row {
+    white-space: pre-wrap;
+    height: 80px;
+    border-top: 2px solid #fff;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.hour {
+    background-color: #333;
+    color: #fff;
+    border-top: 1px dashed #000;
+}
+
+.past {
+    background-color: #ff6961; /* Light red for past events */
+    color: #fff;
+}
+
+.present {
+    background-color: #77dd77; /* Light green for present events */
+    color: #fff;
+}
+
+.future {
+    background-color: #fcc743; /* Yellow for future events */
+    color: #000; /* Black text for future events */
+}
+
+.saveBtn {
+    border-left: 1px solid black;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #0066cc;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.saveBtn i:hover {
+    font-size: 20px;
+    transition: all 0.3s ease-in-out;
+    color: #d11f29;
+}
